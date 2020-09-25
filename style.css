@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');/*logo*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&family=Poiret+One&family=Spartan:wght@300&display=swap');/*homepage heading*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');/*homepage*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');/*lay office heading and left box*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');/*lay office text*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*====================================  Background image Section =========================================*/
+.background_img_section{
+    background-image: url(./img/back.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+/*=======================================  phone no Section ==============================================*/
+.phone_no{
+    font-family: 'Spartan', sans-serif;
+    font-size: .7rem;
+    color: white;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    /*border-bottom: 2px solid hsl(0, 1%, 28%);*/
+    
+}
+
+/*========================================  Menubar Section ==============================================*/
+nav{
+    background: none;
+    height: 80px;
+    width: 100%;
+}
+
+
+#check{
+    display: none;
+}
+.checkbtn img{
+    display: none;
+}
+
+
+.logo{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding-left: 150px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    padding-right: 150px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+   
+    margin-left: 50px;
+}
+nav ul li a{
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: white;
+    text-decoration: underline solid;
+}
+
+nav #menuicon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+}
+/*=======================================  Homepage ==============================================*/
+.homepage{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.homepage_main_left{
+    width: 40%;
+    float: left;
+    height: 400px;
+    color: white;
+    background-color: none;
+}
+.homepage_main_right{
+    width: 600px;
+    float: right;
+    height: 400px;
+    color: #001aff;
+    background-color: none;
+}
+.homepage_main_left .homepage_main_text h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    padding-top: 100px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.homepage_main_left .homepage_main_text p{
+    font-size: 1.3rem;
+    padding-top: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+.homepage_main_left button {
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgb(61, 61, 163);
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    vertical-align: center;
+    
+    border: 2px solid white;
+    border-radius: 5px;
+}
+/*=======================================  Form ==============================================*/
+
+.homepage_main_right .homepage_right_form{
+    float: right;
+    width: 280px;
+    height: 50px;
+    padding: 0px;
+    padding-top: 100px;
+}
+.homepage_main_right .form_heading h3{
+    
+    font-size: 1.2rem;
+    vertical-align: center;
+    width: 220px;
+    padding: 15px;
+    background-color: rgb(61, 61, 163);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.homepage_main_right form{
+   
+    font-size: 1.2rem;
+    vertical-align: center;
+    width: 220px;
+    padding: 15px;
+    background-color:rgba(255, 255, 255, 0.925);
+}
+.form_input{
+    width: 100%;
+    margin-top: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 20px;
+}
+.form_input_checkbox{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.form_input_textarea{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.homepage_right_form p{
+    font-size: 0.8rem;
+    display: inline;
+}
+
+.form_submit{
+    width: 100%;
+    border: 2px solid rgb(8, 8, 177);
+    color: rgb(48, 38, 138);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/*=======================================law_office=================================*/
+
+/*==============================heading =====================================*/
+.law_office{
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+.law_office_heading{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    line-height: 140%;
+    text-decoration: underline  #004680;
+    
+}
+.law_office_heading h1{
+    color: #004680;
+    font-family: 'Nunito', sans-serif;
+}
+/*============================== law office section ==================================*/
+.homepage_second_section_left{
+    padding-top: 50px;
+    width: 30%;
+    float: left;
+    font-size: .8rem;
+}
+/**/
+
+.info_heading_parrent{
+    width: 280px;
+   height: 60px;
+   background-color:  #2e2ee4;
+   margin-bottom: 20px;
+}
+.info_heading{
+   width: 280px;
+   height: 60px;
+   color: black;
+   font-family: 'Nunito', sans-serif;
+   background-color: #dadada;
+   border: 2px solid  #2e2ee4;
+   clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 0 50%);
+}
+.info_heading_two{
+    width: 280px;
+   height: 60px;
+   color: white;
+   font-family: 'Nunito', sans-serif;
+   background-color: #2e2ee4;
+   border: 2px solid  #2e2ee4;
+}
+ .info_heading_parrent .info_heading h2{
+    width: 280px;
+    height: 60px;
+    margin-top: 50px;
+ }
+
+/**/
+.homepage_second_section_right{
+    padding-top: 50px;
+    width: 70%;
+    float: right;
+    text-align: left;
+}
+.homepage_second_section_right p{
+    font-size: 1.1rem;
+    font-family: 'Nunito', sans-serif;
+}
+.homepage_second_section_right a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+/*###########################################################################################################################################*/
+/*###########################################################################################################################################*/
+/*###########################################################################################################################################*/
+
+
+
+@media only screen and (max-width: 1360px){
+
+   
+    /*====================================  Background image Section  @media 800=========================================*/
+    .background_img_section{
+        height: 600px;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    /*=======================================  phone no Section @media 800==============================================*/
+    .phone_no{
+        font-family: 'Spartan', sans-serif;
+        font-size: .7rem;
+        color: white;
+        padding-right: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: right;
+        /*border-bottom: 2px solid hsl(0, 1%, 28%);*/
+        
+    }
+
+    /*========================================  Menubar Section @media 800==============================================*/
+    nav{
+        background: none;
+        height: 50px;
+        width: 100%;
+    }
+    .logo{
+        color: white;
+        font-size: 25px;
+        line-height: 80px;
+        padding-left: 35px;
+        font-weight: bold;
+    }
+    nav ul{
+        float: right;
+        padding-right: 35px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin-left: 35px;
+    }
+    nav ul li a{
+        font-family: 'Spartan', sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+    nav ul li a:hover{
+        color: white;
+        text-decoration: underline solid;
+    }
+    /*
+    nav #menuicon{
+        color: white;
+        font-size: 30px;
+        line-height: 80px;
+        float: right;
+    }
+    */
+    /*=======================================  Homepage @media 800==============================================*/
+    .homepage{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .homepage_main_left{
+        width: 40%;
+        float: left;
+        height: 400px;
+        color: white;
+        background-color: none;
+    }
+    .homepage_main_right{
+        width: 60%;
+        float: right;
+        height: 400px;
+        color: #001aff;
+        background-color: none;
+    }
+    .homepage_main_left .homepage_main_text h1{
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: white;
+        padding-top: 100px;
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+    .homepage_main_left .homepage_main_text p{
+        font-size: 1.2rem;
+        padding-top: 10px;
+    }
+    .homepage_main_left button {
+        width: 160px;
+        height: 45px;
+        margin-top: 20px;
+        background-color: rgb(61, 61, 163);
+        color: white;
+        font-size: 1.2rem;
+        text-align: center;
+        vertical-align: center;
+        
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    /*=======================================  Form @media 800==============================================*/
+
+    .homepage_main_right .homepage_right_form{
+        float: right;
+        width: 280px;
+        height: 50px;
+        padding: 0px;
+        padding-top: 100px;
+    }
+    .homepage_main_right .form_heading h3{
+        
+        font-size: 1.2rem;
+        vertical-align: center;
+        width: 220px;
+        padding: 15px;
+        background-color: rgb(61, 61, 163);
+        color: white;
+    }
+    .homepage_main_right form{
+    
+        font-size: 1.2rem;
+        vertical-align: center;
+        width: 220px;
+        padding: 15px;
+        background-color:rgba(255, 255, 255, 0.925);
+    }
+    .form_input{
+        width: 100%;
+        margin-top: 7px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        height: 20px;
+    }
+    .form_input_checkbox{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .form_input_textarea{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .homepage_right_form p{
+        font-size: 0.8rem;
+        display: inline;
+    }
+
+    .form_submit{
+        width: 100%;
+        border: 2px solid rgb(8, 8, 177);
+        color: rgb(48, 38, 138);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    /*=======================================law_office @media 800=================================*/
+
+    /*==============================heading @media 800=====================================*/
+    .law_office{
+        padding-left: 35px;
+        padding-right: 35px;
+        text-align: center;
+    }
+    .law_office_heading{
+        padding-top: 70px;
+        padding-bottom: 30px;
+        line-height: 140%;
+        text-decoration: underline  #004680;
+        
+    }
+    .law_office_heading h1{
+        color: #004680;
+    }
+    /*============================== law office section ==================================*/
+    .homepage_second_section_left{
+        padding-top: 50px;
+        width: 25%;
+        float: left;
+        font-size: .8rem;
+    }
+    .info_heading_parrent{
+        width: 200px;
+        height: 50px;
+        background-color:  #2e2ee4;
+        margin-bottom: 20px;
+    }
+    .info_heading{
+        width: 200px;
+        height: 50px;
+        color: black;
+        font-size: 1rem;
+        background-color: #dadada;
+        border: 2px solid  #2e2ee4;
+        clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 0 50%);
+    }
+    .info_heading_two{
+        width: 200px;
+        height: 50px;
+        color: white;
+        font-size: 1rem;
+        background-color: #2e2ee4;
+        border: 2px solid  #2e2ee4;
+    }
+    .info_heading_parrent .info_heading h2{
+        width: 200px;
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    /**/
+    .homepage_second_section_right{
+        padding-top: 50px;
+        padding-left: 0px;
+        width: 65%;
+        float: right;
+        text-align: left;
+    }
+    .homepage_second_section_right p{
+        font-size: 1.1rem;  
+    }
+    .homepage_second_section_right a{
+        text-decoration: none;
+    }
+}
+
+
+
+
+/*###########################################################################################################################################*/
+/*###########################################################################################################################################*/
+/*###########################################################################################################################################*/
+
+
+@media only screen and (max-width: 700px){
+ /*====================================@media  Background image Section =========================================*/
+    .background_img_section{
+        height: 60vh;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+/*=======================================@media  phone no Section ==============================================*/
+    .phone_no{
+        font-family: 'Spartan', sans-serif;
+        font-size: .7rem;
+        color: white;
+        padding-right: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: right;
+        /*border-bottom: 2px solid hsl(0, 1%, 28%);*/       
+    }
+/*======================================== @media Menubar Section ==============================================*/
+    nav{
+        background: none;
+        height: 30px;
+        width: 100%;
+    }
+    .logo{
+        color: white;
+        font-size: 15px;
+        line-height: 30px;
+        padding-left: 25px;
+        font-weight: bold;
+    }
+    /*=========================================== for menu button // only in mobile  ===================*/
+        .checkbtn{
+            display: block;
+        }
+        .checkbtn img{
+            display: block;
+            padding-right: 25px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            align-items: right;
+            float: right;
+        }
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 40vh;
+            background: #2c3e50;
+            top: 80px;
+            left: -120%;
+            text-align: center;
+            transition: all .5s;
+        }
+        nav ul li{
+            display: block;
+            margin: 30px 0;
+            line-height: 30px;
+        }
+        nav ul li a{
+            font-size: 15px;
+        }
+        a:hover,a.active{
+            background: none;
+            color: #0082e6;
+        }
+        #check:checked ~ ul{
+            left: 0;
+        }
+        section{
+            background-size: cover;
+          }
+/*======================================= @media Homepage ==============================================*/
+    .homepage{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .homepage_main_left{
+        width: 100%;
+        float: none;
+        height: auto;/*400px*/
+        color: white;
+        background-color: none;
+    }
+    .homepage_main_left .homepage_main_text h1{
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+        padding-top: 80px;
+        font-family: 'Merriweather Sans', sans-serif;
+    }
+    .homepage_main_left .homepage_main_text p{
+        font-size: 1rem;
+        padding-top: 10px;
+    }
+    .homepage_main_left button {
+        width: 180px;
+        height: 50px;
+        margin-top: 20px;
+        background-color: rgb(61, 61, 163);
+        color: white;
+        font-size: 1.2rem;
+        text-align: center;
+        vertical-align: center;
+        
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .homepage_main_right{
+        width: 100%; /*600px*/
+        float: right;
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        color: #001aff;
+        background-color: none; /* for testing   --------   rgb(189, 189, 3)*/
+    }
+
+/*=======================================@media  Form ==============================================*/
+
+    .homepage_main_right .homepage_right_form{
+        float: none;
+        width: 280px;
+        height: 50px;
+        padding: 0px;
+        padding-top: 130px;
+    }
+    .homepage_main_right .form_heading h3{
+        
+        font-size: 1.2rem;
+        vertical-align: center;
+        width: 220px;
+        padding: 15px;
+        background-color: rgb(61, 61, 163);
+        color: white;
+    }
+    .homepage_main_right form{
+    
+        font-size: 1.2rem;
+        vertical-align: center;
+        width: 220px;
+        padding: 15px;
+        background-color:rgba(255, 255, 255, 0.925);
+    }
+    .form_input{
+        width: 100%;
+        margin-top: 7px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        height: 20px;
+    }
+    .form_input_checkbox{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .form_input_textarea{
+        width: 100%;
+    }
+    .homepage_right_form p{
+        font-size: 0.8rem;
+        display: inline;
+    }
+
+    .form_submit{
+        width: 100%;
+        border: 2px solid rgb(8, 8, 177);
+        color: rgb(48, 38, 138);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+/*=======================================@media law_office=================================*/
+
+/*==============================@media heading =====================================*/
+
+    .law_office{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .law_office_heading{
+        padding-top: 70px;
+        padding-bottom: 20px;
+        line-height: 140%;
+        text-align: center;
+        text-decoration: underline  #004680;
+        
+    }
+    .law_office_heading h1{
+        color: #004680;
+        padding-top: 100px;
+    }
+
+/*==============================@media law office section ==================================*/
+
+    .homepage_second_section_left{
+        padding-top: 50px;
+        width: 100%; /*600px*/
+        float: left;
+        display: flex;
+        justify-content: center;
+    }
+    .info_heading_parrent{
+        width: 280px;
+        height: 60px;
+        background-color:  #2e2ee4;
+        margin-bottom: 20px;
+    }
+    .info_heading{
+        width: 280px;
+        height: 60px;
+        color: black;
+        background-color: #dadada;
+        border: 2px solid  #2e2ee4;
+        clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%, 0 50%);
+    }
+    .info_heading_two{
+        width: 280px;
+        height: 60px;
+        color: white;
+        background-color: #2e2ee4;
+        border: 2px solid  #2e2ee4;
+    }
+    .info_heading_parrent .info_heading h2{
+        width: 280px;
+        height: 60px;
+        margin-top: 50px;
+    }
+    .homepage_second_section_right{
+        padding-top: 50px;
+        width: 100%; /*600px*/
+        float: right;
+        display: flex;
+        justify-content: center;
+    }
+    .homepage_second_section_right p{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
